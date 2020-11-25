@@ -1,4 +1,4 @@
-import com.sun.org.apache.xerces.internal.impl.xpath.regex.REUtil;
+
 
 public class Printf {
 
@@ -47,7 +47,7 @@ public class Printf {
 		System.out.printf("You said: %s. %n", a);
 		
 		// %S - is replaced with a string - IN CAPS
-		System.out.printf("You said: %S. %n", a);
+		System.out.printf("You said: %S. Here is a lower case sentence. %n", a);
 		
 		// %d is replaced with an int type (int, long, short)
 		System.out.printf("Number: %d%n", 12);
